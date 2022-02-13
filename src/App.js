@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import {useState} from 'react'
+import Navbar from './Navbar'
+import Hero from './Hero'
+import About from './About'
+import Skills from './Skills'
+import Projects from './Projects'
+import Contact from './Contact'
+import Footer from './Footer'
 
 function App() {
+
+  const [showScroll, setShowScroll] = useState(false)
+
+  const checkScrollTop = () => {
+    window.pageYOffset > 600 ? setShowScroll(true) : setShowScroll(false)
+  };
+
+  window.addEventListener('scroll', checkScrollTop)
+
+  const scrollTop = () =>{
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <img className="scrollTop" style={{display: showScroll ? 'inline-block' : 'none'}} onClick={scrollTop} src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/50/000000/external-up-arrow-arrows-dreamstale-lineal-dreamstale-8.png"/>
+      <Navbar/>
+      <Hero/>
+      <About/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

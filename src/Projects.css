@@ -1,0 +1,19 @@
+.projects-divider{
+    position: relative;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.projects-divider svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 65px;
+}
+
+.projects-divider .shape-fill {
+    fill: #0D1431;
+}

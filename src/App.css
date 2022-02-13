@@ -1,38 +1,54 @@
 .App {
-  text-align: center;
+  text-align: right;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.divider {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 67px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.divider .shape-fill {
+  fill: #EFFAF9;
+}
+
+
+.arrow{
+  animation: arrowMove 2s infinite;
+  cursor: pointer;
+}
+
+@keyframes arrowMove {
+  0% { transform:translateY(0) }
+  50% { transform: translateY(15%) }
+  100% { transform:translateY(0);}
+}
+
+.scrollTop {
+  position: fixed; 
+  bottom: 30px;
+  right: 30px;
+  text-align: right;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: transform 0.3s ease;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scrollTop:hover {
+  transform: translateY(-8%);
+  box-shadow: 0px 12px 10px -7px white;
 }
