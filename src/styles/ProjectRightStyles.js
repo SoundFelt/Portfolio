@@ -5,10 +5,17 @@ export const useStyles = createUseStyles({
     rowContainer: {
         display: 'flex',
         width: '80%',
-        height: '400px',
+        height: '100%',
         margin: '50px auto',
         "@media (min-width: 1367px)": {
-        marginBottom: '100px'
+            marginBottom: '100px'
+        },
+        "@media (max-width: 1200px)" : {
+            width: '95%'
+        },
+        "@media (max-width: 800px)" : {
+            flexDirection: 'column-reverse',
+            
         }
     },
     rowRight: {
@@ -30,6 +37,9 @@ export const useStyles = createUseStyles({
             marginBottom: '15px',
             "@media (min-width: 1367px)" : {
                 fontSize: '2rem',
+            },
+            "@media (max-width: 800px)" : {
+                fontSize: '1.7rem'
             }
         },
         "& p" : {
@@ -39,11 +49,18 @@ export const useStyles = createUseStyles({
             },
             "@media (max-width: 964px)" : {
                 fontSize: '1rem'
-              }
+              },
+              "@media (max-width: 800px)" : {
+                fontSize: '1.3rem'
+            }
         },
         "@media (min-width: 1367px)" : {
             width: '80%'
+        },
+        "@media (max-width: 1200px)" : {
+            width: '90%'
         }
+
     },
     rowLeft: {
         display: 'flex',
@@ -63,7 +80,8 @@ export const useStyles = createUseStyles({
         margin: 'auto',
         textAlign: 'center',
         objectFit: 'cover',
-        border: '2px solid black'
+        border: '2px solid black',
+        verticalAlign: 'bottom'
         
     },
     linksContainer: {

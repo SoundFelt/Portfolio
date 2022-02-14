@@ -57,6 +57,9 @@ export const useStyles = createUseStyles({
             height: '200px',
             marginBottom: '15px',
             fontSize: '1.1rem'
+        },
+        "@media (max-width: 800px)" : {
+            width: '60%'
         }
     },
     successMessage: {

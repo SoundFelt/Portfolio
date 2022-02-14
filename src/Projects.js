@@ -18,6 +18,9 @@ const useStyles = createUseStyles({
         "@media (min-width: 1367px)" : {
             fontSize: '1.5rem',
             paddingBottom: '50px'
+        },
+        "@media (max-width: 800px)" : {
+            margin: '0'
         }
     },
     projectsTitle: {

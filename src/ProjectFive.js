@@ -1,11 +1,12 @@
 import React from 'react'
 import {useStyles} from './styles/ProjectLeftStyles'
 import TogetherMusicians from './images/TogetherMusicians.png'
+import './Projects.css'
 
 function ProjectFive() {
     const classes = useStyles()
     return (
-        <div className={classes.rowContainer}>
+        <div className={classes.rowContainer} style={{marginBottom: '100px'}}>
 
             <div className={classes.rowLeft}>
                 

@@ -5,11 +5,18 @@ export const useStyles = createUseStyles({
     rowContainer: {
         display: 'flex',
         width: '80%',
-        height: '400px',
+        height: '100%',
         margin: 'auto',
         "@media (min-width: 1367px)": {
             marginBottom: '100px'
-            }
+            },
+        "@media (max-width: 1200px)" : {
+            width: '90%'
+        },
+        "@media (max-width: 800px)" : {
+            flexDirection: 'column',
+            
+        }
     },
     rowLeft: {
         display: 'flex',
@@ -28,6 +35,9 @@ export const useStyles = createUseStyles({
             marginBottom: '15px',
             "@media (min-width: 1367px)" : {
                 fontSize: '2rem',
+            },
+            "@media (max-width: 800px)" : {
+                fontSize: '1.7rem'
             }
         },
         "& p" : {
@@ -37,12 +47,17 @@ export const useStyles = createUseStyles({
             },
             "@media (max-width: 964px)" : {
                 fontSize: '1rem'
-              }
+              },
+            "@media (max-width: 800px)" : {
+                fontSize: '1.3rem'
+            }
+        },
+        "@media (max-width: 1200px)" : {
+            width: '90%'
         }
     },
     rowRight: {
         width: '100%',
-        height: '100%',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -51,7 +66,7 @@ export const useStyles = createUseStyles({
     },
     projectImage: {
        textAlign: 'center',
-       width: '100%',
+       
        height: '100%',
     },
     img: {
@@ -60,7 +75,8 @@ export const useStyles = createUseStyles({
         margin: 'auto',
         textAlign: 'center',
         objectFit: 'cover',
-        border: '2px solid black'
+        border: '2px solid black',
+        verticalAlign: 'bottom'
         
     },
     linksContainer: {
@@ -74,11 +90,11 @@ export const useStyles = createUseStyles({
             color: 'black',
             fontSize: '1rem',
             margin: '0'
-        }
+        },
     },
     seeLive: {
         width: '50%',
-        padding: '2px 0',
+        padding: '1px 0',
         borderBottom: '2px solid black',
         borderLeft: '2px solid black',
         borderRight: '2px solid black',
