@@ -4,7 +4,7 @@
 
 .divider {
   position: absolute;
-  bottom: -10px;
+  bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
