@@ -89,14 +89,13 @@ export const useStyles = createUseStyles({
     },
     imageContainer: {
       height: '100vh',
-      backgroundSize: 'cover',
+      
       "& img": {
         height: '100%',
         width: '100%',
         objectFit: 'cover'
       },
     },
-
   
   // ---Arrow animation in CSS file as not working in JSS--- //
   // arrow: {
