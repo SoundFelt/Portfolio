@@ -61,10 +61,10 @@ export const useStyles = createUseStyles({
         top: '75%'
       },
       "@media (max-height: 1000px)" : {
-        top: '76%',
+        top: '80%',
       },
       "@media (max-height: 700px)" : {
-        top: '70%',
+        top: '75%',
       },
       "@media (min-width: 1368px),(min-height: 1000px)": {
         width: '60%',
