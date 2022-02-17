@@ -2,13 +2,19 @@ import {useStyles} from './styles/HeroStyles'
 import {Link} from 'react-scroll'
 import HeroParticles from './HeroParticles'
 import Background2 from './images/Background2.jpeg'
+import './styles/starsAnimation.css'
 
 function Hero() {
 
   const classes = useStyles()
   return ( 
     <div id="Hero" className={classes.heroContainer}>
-      <HeroParticles/>
+    
+    <div class="stars-container">
+      <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        </div>
 
       <div className={classes.imageContainer}>
         <img src={Background2} alt="heroBackground"></img>
