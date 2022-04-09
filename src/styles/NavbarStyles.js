@@ -11,23 +11,38 @@ export const useStyles = createUseStyles({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
-        position: 'absolute'
+        position: 'absolute',
+        "@media (max-width: 450px)" : {
+            padding: '0 10px'
+        }
     },
     logo: {
         margin: '0',
         color: 'white',
         fontSize: '1.5rem',
         textAlign: 'center',
-        marginBottom: '2px'
+        marginBottom: '2px',
+        "@media (max-width: 450px)": {
+            fontSize: '1.1rem'
+        }
     },
     logoContainer: {
-        display: 'flex',
-        flexDirection: 'column',
-        cursor: 'pointer',
         '& span': {
             fontSize: '0.9rem',
             color: 'white',
-            marginBottom: '5px'
+            marginBottom: '5px',
+            "@media (max-width: 450px)": {
+                fontSize: '0.8rem'
+            }
+        },
+    },
+    linksContainer: {
+        "& a" : {
+            marginLeft: '30px',
+            "@media (max-width: 600px)" : {
+                fontSize: '0.9rem',
+                marginLeft: '15px'
+            }
         }
     },
     
@@ -35,7 +50,6 @@ export const useStyles = createUseStyles({
     a: {
         color: 'white',
         textDecoration: 'none',
-        marginLeft: '30px',
         fontSize: '1.2rem',
         cursor: 'pointer',
         },

@@ -31,6 +31,9 @@ export const useStyles = createUseStyles({
         width: '35%',
         height: '100%',
         zIndex: '10',
+        "@media (max-width: 700px)": {
+            width: '60%'
+        },
         
         '&:after': {
             content: '""',
@@ -42,7 +45,10 @@ export const useStyles = createUseStyles({
             top: '20px',
             borderRadius: '10px',
             zIndex: '-1',
-            opacity: '0.9'
+            opacity: '0.9',
+            "@media (max-width: 600px)" : {
+                display: 'none',
+            }
         }
     },
     aboutImg: {
@@ -69,12 +75,25 @@ export const useStyles = createUseStyles({
             fontSize: '1rem',
         },
         "@media (max-width: 964px)" : {
-            fontSize: '0.9rem'
+            fontSize: '1.1rem'
           },
-       
+        "@media (max-width: 500px)": {
+            fontSize: "0.9rem"
+        }
     },
     firstPTag: {
         marginTop: '0',
     },
+
+    "@media (max-width: 800px)" : {
+        aboutContent: {
+            flexDirection: 'column',
+            alignItems: 'center',
+        },
+        textContainer: {
+            width: '100%',
+            marginTop: '50px'
+        },
+    }
     
 })

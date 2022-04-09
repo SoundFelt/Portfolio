@@ -15,7 +15,7 @@ function HeroParticles() {
   const classes = useStyles()
   return (
     <Particles className={classes.particlesWrapper} options={{
-        fpsLimit: 60,
+        fpsLimit: 30,
         interactivity: {
           events: {
             onClick: {

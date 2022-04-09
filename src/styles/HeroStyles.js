@@ -23,6 +23,9 @@ export const useStyles = createUseStyles({
         },
         "@media (max-height: 1000px)" : {
           fontSize: '3rem',
+        },
+        "@media (max-width: 450px)" : {
+          fontSize: '2.4rem'
         }
       },
       "& p": {
@@ -37,17 +40,25 @@ export const useStyles = createUseStyles({
         },
         "@media (max-width: 700px)" : {
           fontSize: '1.2rem'
+        },
+        "@media (max-width: 450px)" : {
+          fontSize: '1.05rem'
         }
       },
       "@media (min-width: 1367px)" : {
-        width: '55%',
+        width: '40%',
         top: '71%',
       },
       "@media (max-width: 1366px)" : {
-        top: '72%'
+        top: '72%',
+        width: '80%'
       },
       "@media (max-width: 964px)" : {
         width: '80%',
+      },
+      "@media (min-height: 1090px), (max-width: 964px) ": {
+        width: "90%",
+        top: '75%'
       },
       "@media (max-height: 1000px)" : {
         top: '80%',
@@ -79,14 +90,13 @@ export const useStyles = createUseStyles({
     },
     imageContainer: {
       height: '100vh',
-      backgroundSize: 'cover',
+      
       "& img": {
         height: '100%',
         width: '100%',
         objectFit: 'cover'
       },
     },
-
   
   // ---Arrow animation in CSS file as not working in JSS--- //
   // arrow: {
