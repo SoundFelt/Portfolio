@@ -2,13 +2,19 @@ import {useStyles} from './styles/HeroStyles'
 import {Link} from 'react-scroll'
 import HeroParticles from './HeroParticles'
 import Background2 from './images/Background2.jpeg'
+import './styles/starsAnimation.css'
 
 function Hero() {
 
   const classes = useStyles()
   return ( 
     <div id="Hero" className={classes.heroContainer}>
-      <HeroParticles/>
+    
+    <div class="stars-container">
+      <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        </div>
 
       <div className={classes.imageContainer}>
         <img src={Background2} alt="heroBackground"></img>
@@ -16,7 +22,7 @@ function Hero() {
 
       <div className={classes.mainTextContainer}>
         <h2>Hello, I'm Anthony.</h2>
-        <p>Based in London, with experience in <b>HTML</b>, <b>CSS</b> & <b>JavaScript</b> - I am seeking an entry level role as a Front-End Web Developer.</p>
+        <p>Based in London, with experience in a variety of technologies including HTML, CSS & Javascript - I am seeking an entry level role as a Web Developer.</p>
           <div className={classes.findOutMore}>
             <span>Find out more</span>
             <Link to="About" smooth={true} duration={1000}><img class="arrow" src="https://img.icons8.com/ios-glyphs/30/ffffff/expand-arrow.png" alt="arrowIcon"/></Link>

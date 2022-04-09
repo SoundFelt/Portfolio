@@ -7,6 +7,8 @@ import MaterialUILogo from './images/MaterialUILogo.png'
 import JSSLogo from './images/JSSLogo.png'
 import BulmaLogo from './images/BulmaLogo.png'
 import FirebaseLogo from './images/Firebase.png'
+import SQLLogo from './images/SQLLogo.png'
+import NodeLogo from './images/NodeLogo.png'
 import './Skills.css'
 
 function Skills() {
@@ -35,22 +37,23 @@ function Skills() {
                     <img src={ReactLogo}></img>
                     <p>ReactJS</p>
                 </div>
-                <div className={classes.MaterialUI}>
-                    <img src={MaterialUILogo}></img>
-                    <p>Material UI</p>
-                </div>
-                <div className={classes.JSS}>
-                    <img src={JSSLogo}></img>
-                    <p>JSS</p>
-                </div>
                 <div className={classes.Bulma}>
                     <img src={BulmaLogo}></img>
                     <p>Bulma</p>
+                </div>
+                <div className={classes.SQLLogo}>
+                    <img src={SQLLogo}></img>
+                    <p>SQL (MySQL)</p>
                 </div>
                 <div className={classes.Firebase}>
                     <img src={FirebaseLogo}></img>
                     <p>Firebase</p>
                 </div>
+                <div className={classes.NodeLogo}>
+                    <img src={NodeLogo}></img>
+                    <p>Node</p>
+                </div>
+                
             </div>
             </div>
             
