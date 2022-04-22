@@ -111,14 +111,24 @@ export const useStyles = createUseStyles({
         borderRight: '2px solid black'
     },
     logosContainer: {
-        width: '45%',
+        width: '40%',
         margin: '0 auto',
         display: 'flex',
         justifyContent: 'space-between',
-    
         "& img" : {
-            height: '30px',
+            height: '35px',
         }
+    },
+    html5Logo: {
+        width: '40px',
+        height: '42px !important',
+        paddingTop: '1px'
+    },
+    cssLogo: {
+        width: '32px',
+        height: '47px !important',
+        marginLeft: '15px'
     }
+    
     
 })

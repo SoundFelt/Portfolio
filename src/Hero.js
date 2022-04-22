@@ -1,6 +1,5 @@
 import {useStyles} from './styles/HeroStyles'
 import {Link} from 'react-scroll'
-import HeroParticles from './HeroParticles'
 import Background2 from './images/Background2.jpeg'
 import './styles/starsAnimation.css'
 

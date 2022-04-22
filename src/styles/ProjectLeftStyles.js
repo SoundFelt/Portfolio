@@ -106,13 +106,13 @@ export const useStyles = createUseStyles({
         borderRight: '2px solid black'
     },
     logosContainer: {
-        width: '45%',
+        width: '55%',
         margin: '0 auto',
         display: 'flex',
         justifyContent: 'space-between',
     
         "& img" : {
-            height: '30px',
+            height: '35px',
         }
     }
     

@@ -23,7 +23,7 @@ export const useStyles = createUseStyles({
         textAlign: 'center',
         marginBottom: '2px',
         "@media (max-width: 450px)": {
-            fontSize: '1.1rem'
+            fontSize: '0.8rem'
         }
     },
     logoContainer: {
@@ -32,7 +32,7 @@ export const useStyles = createUseStyles({
             color: 'white',
             marginBottom: '5px',
             "@media (max-width: 450px)": {
-                fontSize: '0.8rem'
+                fontSize: '0.6rem'
             }
         },
     },

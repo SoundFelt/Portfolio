@@ -24,7 +24,8 @@ function App() {
 
   return (
     <div className="App">
-    <img className="scrollTop" style={{display: showScroll ? 'inline-block' : 'none'}} onClick={scrollTop} src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/50/000000/external-up-arrow-arrows-dreamstale-lineal-dreamstale-8.png"/>
+    <img className="scrollTop" style={{display: showScroll ? 'inline-block' : 'none'}} alt="hero-background"
+    onClick={scrollTop} src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/50/000000/external-up-arrow-arrows-dreamstale-lineal-dreamstale-8.png"/>
       <Navbar/>
       <Hero/>
       <About/>
