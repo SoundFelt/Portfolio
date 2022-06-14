@@ -7,6 +7,7 @@ import Skills from './Skills'
 import Projects from './Projects'
 import Contact from './Contact'
 import Footer from './Footer'
+import TestComp from './testComp';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Projects/>
       <Contact/>
       <Footer/>
+      <TestComp/>
     </div>
   );
 }
