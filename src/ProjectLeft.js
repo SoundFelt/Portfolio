@@ -17,12 +17,16 @@ function ProjectLeft(props) {
                         <div className={classes.logo2}>
                             <img alt="logo2" src={props.logo2}></img>
                         </div>
-                        <div className={classes.logo3}>
-                            <img alt="logo3" src={props.logo3}></img>
-                        </div>
-                        {props.logo4 && <div className={classes.logo4}>
-                            <img alt="logo4" src={props.logo4}></img>
-                        </div>}
+                        { props.logo3 && (
+                            <div className={classes.logo3}>
+                                <img alt="logo3" src={props.logo3}></img>
+                            </div>
+                        )}
+                        { props.logo4 && (
+                            <div className={classes.logo4}>
+                                <img alt="logo4" src={props.logo4}></img>
+                            </div>
+                        )}
                     </div>}
                     {props.description}
                 </div>

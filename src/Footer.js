@@ -18,7 +18,7 @@ function Footer() {
     const classes = useStyles()
   return (
     <div id="Footer" className={classes.footerContainer}>
-            <span>© Copyright 2022 | Anthony McLean</span>
+            <span>© Copyright 2023 | Anthony McLean</span>
             <span>Made with ReactJS</span>
     </div>
   )

@@ -3,9 +3,8 @@ import HTMLLogo1 from './images/HTML5Logo1.png'
 import CSSLogo1 from './images/CSSLogo1.png'
 import JSLogo1 from './images/JSLogo1.png'
 import ReactLogo from './images/ReactLogo.png'
-import BulmaLogo from './images/BulmaLogo.png'
-import FirebaseLogo from './images/Firebase.png'
-import SQLLogo from './images/SQLLogo.png'
+import TypeScriptLogo from './images/TypeScriptLogo.png'
+import MongoDBLogo from './images/MongoDBLogo.png'
 import NodeLogo from './images/NodeLogo.png'
 import './Skills.css'
 
@@ -33,23 +32,19 @@ function Skills() {
                     </div>
                     <div className={classes.React}>
                         <img alt="reactlogo" src={ReactLogo}></img>
-                        <p>ReactJS</p>
+                        <p>React & React Native</p>
                     </div>
-                    <div className={classes.Bulma}>
-                        <img alt="bulmalogo" src={BulmaLogo}></img>
-                        <p>Bulma</p>
+                    <div className={classes.TypeScript}>
+                        <img alt="typesciptlogo" src={TypeScriptLogo}></img>
+                        <p>TypeScript</p>
                     </div>
-                    <div className={classes.SQLLogo}>
-                        <img alt="sqllogo" src={SQLLogo}></img>
-                        <p>SQL (MySQL)</p>
-                    </div>
-                    <div className={classes.Firebase}>
-                        <img alt="firebaselogo" src={FirebaseLogo}></img>
-                        <p>Firebase</p>
+                    <div className={classes.MongoDBLogo}>
+                        <img alt="mongodblogo" src={MongoDBLogo}></img>
+                        <p>MongoDB</p>
                     </div>
                     <div className={classes.NodeLogo}>
                         <img alt="nodelogo" src={NodeLogo}></img>
-                        <p>Node</p>
+                        <p>Node & Express</p>
                     </div> 
                 </div>
             </div>

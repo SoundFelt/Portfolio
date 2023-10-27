@@ -60,7 +60,7 @@ export const useStyles = createUseStyles({
     },
     
     textContainer: {
-        width: '55.6%',
+        width: '56.2%',
         
     },
     aboutText: {

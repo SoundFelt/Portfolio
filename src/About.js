@@ -1,5 +1,5 @@
 import {useStyles} from './styles/AboutStyles'
-import AboutImage from './images/AboutImage.png'
+import AboutImage from './images/Profile.jpeg'
 import './About.css'
 
 function About() {
@@ -14,16 +14,14 @@ function About() {
                 <img className={classes.aboutImg} src={AboutImage} alt="aboutImg"/>
             </div>
             <div className={classes.textContainer}>
-                <div className={classes.aboutText}>
-                <p className={classes.firstPTag}>As a self-taught developer, learning to code for just over a year now has been an exciting, challenging, and hugely rewarding endeavour.</p>
-                <p>Coming from a classical music background and graduating from the Royal Birmingham Conservatoire in 2019, I started to feel that relying on music to make a living was not ideal.
-                Having always been 'the tech guy', in my family, likely from growing up using phones, computers and enjoying keeping up to date with all the latest gadgets, I began wondering if a career in tech would be more suitable.</p>
-                <p>I have always enjoyed being creative, filming projects, recording & editing, self-producing CDs, playing music, yet am someone who is still logical, and loves learning and understanding how things work.
-                Being a full-stack developer allows me to mix the two, creatively making UI's come to life but to do that I need to be logical and structured throughout the process. Best of both worlds!</p>
-                <p>Spending much of my life so far becoming a proficient pianist has instilled important qualities - disipline, focus, self-motivation to name a few, many of which I think would be very useful as a developer.</p>
-                <p>I feel that I have come on a long way since starting my first online bootcamp course at the start of 2021, but I appreciate there is much more to learn and that this will be a life-long journey.
-                I am very much looking forward to entering my first role as a developer, and hope that I'll be able to bring much value to wherever I end up.</p>
-                </div>
+            <div className={classes.aboutText}>
+                <p className={classes.firstPTag}>As a self-taught full stack developer, working in the heart of London at a music ed-tech startup for the past year has been an exciting, challenging and rewarding introduction in the world of software development.</p>
+                <p>Originally coming from a classical music background and graduating from the Royal Birmingham Conservatoire in 2019, I began learning how to code in my spare time, and soon realised that this was what I wanted to be doing full time.</p>
+                <p>Having learnt so much in the professional environment over this year, I am now looking for a role where I can continue to grow and develop my skills, creating high quality apps that will hopefully benefit many people's lives.</p>
+                <p>I believe that I have many qualities that make me a great developer, one of the main ones being that I always focus on the user. The code that I write is to solve problems for them, and to make their experience as good as it can be. I am able to persevere to problem solve and have an eye for detail. I have a desire to always produce work to the highest level that I can achieve, and my consistancy, focus and disipline I know has helped me get to this point that I am at now.</p>
+                <p>I have come on a long way since starting my first coding bootcamp at the start of 2021, and the more I work the more I realise how much more there is to learn and improve on.
+                    I very much look forward to continuing my journey as a developer, and hope that if we work together, I'll be able to bring much value to your business.</p>
+            </div>
             </div>
         </div>
 

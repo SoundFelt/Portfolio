@@ -21,11 +21,11 @@ function Hero() {
 
       <div className={classes.mainTextContainer}>
         <h2>Hello, I'm Anthony.</h2>
-        <p>Based in London, with experience in a variety of technologies including HTML, CSS & Javascript - I am seeking an entry level role as a Web Developer.</p>
-          <div className={classes.findOutMore}>
-            <span>Find out more</span>
-            <Link to="About" smooth={true} duration={1000}><img class="arrow" src="https://img.icons8.com/ios-glyphs/30/ffffff/expand-arrow.png" alt="arrowIcon"/></Link>
-          </div>
+        <p>Full stack developer with working experience using the MERN stack, knowledge of Typescript, SQL & more. I am seeking a role where I can utilise these skills in a business that wants to make a difference in the world.</p>
+        <div className={classes.findOutMore}>
+          <span>Find out more</span>
+          <Link to="About" smooth={true} duration={1000}><img class="arrow" src="https://img.icons8.com/ios-glyphs/30/ffffff/expand-arrow.png" alt="arrowIcon" /></Link>
+        </div>
       </div>
       
       <div class="divider">

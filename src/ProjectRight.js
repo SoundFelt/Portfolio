@@ -12,7 +12,11 @@ function ProjectRight(props) {
 
         <div className={classes.rowLeft}>
                 <div className={classes.projectImage}>
-                    <video className={classes.img} loop muted playsInline autoPlay src={props.projectVideo}></video>
+                    { !props.projectImage ? (
+                        <video className={classes.img} loop muted playsInline autoPlay src={props.projectVideo}></video>
+                    ) : (
+                        <img alt="project" className={classes.img} src={props.projectImage} />
+                    )}
                 </div>
                 <div className={classes.linksContainer}>
                     <div className={classes.seeLive}>
@@ -29,15 +33,21 @@ function ProjectRight(props) {
                 <div className={classes.projectInfo}>
                     <h4>{props.title}</h4>
                     <div className={classes.logosContainer}>
-                        <div>
-                            <img alt="logo1" className={`${html5Logo && classes.html5Logo}`} src={props.logo1}></img>
-                        </div>
-                        <div className={classes.logo2}>
-                            <img alt="logo2" className={`${cssLogo && classes.cssLogo}`} src={props.logo2}></img>
-                        </div>
-                        {props.logo3 && <div className={classes.logo3}>
-                            <img alt="logo3" src={props.logo3}></img>
-                        </div>}
+                        { props.logo1 && (
+                            <div>
+                                <img alt="logo1" className={`${html5Logo && classes.html5Logo}`} src={props.logo1}></img>
+                            </div>
+                        )}
+                        { props.logo2 && (
+                            <div className={classes.logo2}>
+                                <img alt="logo2" className={`${cssLogo && classes.cssLogo}`} src={props.logo2}></img>
+                            </div>
+                        )}
+                        { props.logo3 && (
+                            <div className={classes.logo3}>
+                                <img alt="logo3" src={props.logo3}></img>
+                            </div>
+                        )}
                     </div>
                     {props.description}
                 </div>

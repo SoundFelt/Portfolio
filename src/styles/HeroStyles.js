@@ -80,7 +80,7 @@ export const useStyles = createUseStyles({
     },
     "@media (min-height: 700px)" : {
       mainTextContainer: {
-        top: '75%'
+        top: '72%'
       }
     }
 })

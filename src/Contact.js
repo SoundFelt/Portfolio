@@ -18,7 +18,7 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault()
         setLoading(true)
-        emailjs.send('service_oy3acac', 'contact_form', values, 'user_MGZK3YXE2haM8nsBL7UMW').then(() => console.log('email sent'))
+        emailjs.send('service_oy3acac', 'portfolio_contact_form', values, 'user_MGZK3YXE2haM8nsBL7UMW').then(() => console.log('email sent'))
         setLoading(false)
         setMessageSubmitted(true)
         setValues({fullName: '', email: '', message: ''})
