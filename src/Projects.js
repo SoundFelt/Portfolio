@@ -86,15 +86,15 @@ function Projects() {
             <h1 className={classes.projectsTitle}>Project Highlights</h1>
         </div>
 
-        <Project textLeft title="AcumoGlobal" description={<div><p>AcumoGlobal blah blah blah.A fullstack music player with a twist, allowing users to add and save their own tracks for listening rather than stream.</p><p>Front-end built using React, Bulma & JSS for styling and icons taken from Font Awesome.</p><p>Back-end uses Firebase for authentication, database and cloud storage.</p></div>}
+        <Project textLeft title="AcumoGlobal" description={<div><p>AcumoGlobal description</p></div>}
         seeLive="https://www.acumoglobal.com"
         projectVideo={AcumoDemo} logo1={ReactLogoColor} logo2={ViteLogo} logo3={StyledComponentsLogo} logo4={ElysiaLogo} logo5={BunLogo} />
         <div style={{ backgroundColor: 'rgb(100, 100, 100)', height: '0.5px', width: '90%', margin: '75px auto' }}/>
-        <Project title="Calendars" description={<div><p>A take home task for my position at the music ed-tech startup. Created in React with reliance on setIntervals & setTimeouts, but also learnt about the web audio API which can provide better accuracy for apps that require timing precision.</p><p>First project that required a more structured mathematical process to get the tap tempo timing working, and lining up the animation correctly.</p></div>}
+        <Project title="Calendars" description={<div><p>Calendars description</p></div>}
         projectVideo={MobileCalendarDemo} projectVideo2={RoomBookingsDemo}
         logo1={ReactLogoColor} logo2={TypeScriptLogoColor} logo3={SASSLogo} logo4={NodeLogoColor} />
         <div style={{ backgroundColor: 'rgb(100, 100, 100)', height: '0.5px', width: '90%', margin: '75px auto' }} />
-        <Project textLeft title="Client websites" description={<div><p>A fullstack music player with a twist, allowing users to add and save their own tracks for listening rather than stream.</p><p>Front-end built using React, Bulma & JSS for styling and icons taken from Font Awesome.</p><p>Back-end uses Firebase for authentication, database and cloud storage.</p></div>}
+        <Project textLeft title="Client websites" description={<div><p>Client websites description</p></div>}
         seeLive='https://transcendent-stardust-69ebf5.netlify.app' seeCode='https://github.com/SoundFelt/PianoAccompaniment'
         projectVideo={ClientWebsite1Demo} projectVideo2={ClientWebsite2Demo} 
         logo1={ReactLogoColor} logo2={HTML5LogoColor} logo3={CSSLogoColor1} logo4={StyledComponentsLogo} />
