@@ -1,6 +1,6 @@
 import {useStyles} from './styles/HeroStyles'
 import {Link} from 'react-scroll'
-import Background2 from './images/Background2.jpeg'
+import Background from './images/newbg.jpg';
 import './styles/starsAnimation.css'
 
 function Hero() {
@@ -16,12 +16,13 @@ function Hero() {
         </div>
 
       <div className={classes.imageContainer}>
-        <img src={Background2} alt="heroBackground"></img>
+        <img src={Background} alt="heroBackground"></img>
       </div>
 
       <div className={classes.mainTextContainer}>
         <h2>Hello, I'm Anthony.</h2>
-        <p>Full stack developer with working experience using the MERN stack, knowledge of Typescript, SQL & more. I am seeking a role where I can utilise these skills in a business that wants to make a difference in the world.</p>
+        <p>Full-stack developer with professional experience creating impactful web solutions, primarily using the MERN stack and TypeScript.</p>
+        <p>I’m seeking opportunities to further grow as a developer and leverage my skills to contribute to businesses that are striving to make a positive difference in the world.</p>
         <div className={classes.findOutMore}>
           <span>Find out more</span>
           <Link to="About" smooth={true} duration={1000}><img class="arrow" src="https://img.icons8.com/ios-glyphs/30/ffffff/expand-arrow.png" alt="arrowIcon" /></Link>

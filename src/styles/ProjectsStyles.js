@@ -8,13 +8,10 @@ export const useStyles = createUseStyles({
     },
     projectsTitleContainer: {
         textAlign: 'center',
-        marginBottom: '40px',
+        marginBottom: '80px',
         "@media (min-width: 1367px)" : {
             fontSize: '1.5rem',
             paddingBottom: '50px'
-        },
-        "@media (max-width: 800px)" : {
-            margin: '0'
         }
     },
     projectsTitle: {

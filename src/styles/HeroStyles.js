@@ -18,8 +18,8 @@ export const useStyles = createUseStyles({
       },
       "& p": {
         textAlign: 'center',
-        fontSize: '1.4rem',
-        margin: '15px 0 128px',
+        fontSize: '1.2rem',
+        // margin: '15px 0 128px',
       },
     },
     findOutMore: {
@@ -27,6 +27,7 @@ export const useStyles = createUseStyles({
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
+      marginTop: '130px',
       "& img": {
         color: 'white',
         fontSize: '0.5rem',
@@ -40,10 +41,11 @@ export const useStyles = createUseStyles({
     },
     imageContainer: {
       height: '100vh',
+      // opacity: '0.5',
       "& img": {
         height: '100%',
         width: '100%',
-        objectFit: 'cover'
+        objectFit: 'cover',
       },
     },
     "@media (max-width: 960px)" : {
@@ -60,10 +62,10 @@ export const useStyles = createUseStyles({
     },
     "@media (max-width: 460px)" : {
       mainTextContainer: {
-        width: '80%',
+        width: '90%',
 
         "& h2": {
-          fontSize: '2.1rem'
+          fontSize: '2.4rem'
         },
         "& p": {
           fontSize: '1rem'
@@ -72,15 +74,15 @@ export const useStyles = createUseStyles({
     },
     "@media (min-width: 1500px)" : {
       mainTextContainer: {
-        width: '50%',
+        width: '60%',
         "& p" : {
-          fontSize: '1.75rem'
+          fontSize: '1.6rem'
         }
       },
     },
     "@media (min-height: 700px)" : {
       mainTextContainer: {
-        top: '72%'
+        top: '73%'
       }
     }
 })

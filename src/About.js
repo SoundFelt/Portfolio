@@ -15,12 +15,15 @@ function About() {
             </div>
             <div className={classes.textContainer}>
             <div className={classes.aboutText}>
-                <p className={classes.firstPTag}>As a self-taught full stack developer, working in the heart of London at a music ed-tech startup for the past year has been an exciting, challenging and rewarding introduction in the world of software development.</p>
-                <p>Originally coming from a classical music background and graduating from the Royal Birmingham Conservatoire in 2019, I began learning how to code in my spare time, and soon realised that this was what I wanted to be doing full time.</p>
-                <p>Having learnt so much in the professional environment over this year, I am now looking for a role where I can continue to grow and develop my skills, creating high quality apps that will hopefully benefit many people's lives.</p>
-                <p>I believe that I have many qualities that make me a great developer, one of the main ones being that I always focus on the user. The code that I write is to solve problems for them, and to make their experience as good as it can be. I am able to persevere to problem solve and have an eye for detail. I have a desire to always produce work to the highest level that I can achieve, and my consistancy, focus and disipline I know has helped me get to this point that I am at now.</p>
-                <p>I have come on a long way since starting my first coding bootcamp at the start of 2021, and the more I work the more I realise how much more there is to learn and improve on.
-                    I very much look forward to continuing my journey as a developer, and hope that if we work together, I'll be able to bring much value to your business.</p>
+                <p>I’m a full-stack developer with over two years of professional experience, building efficient, user-centered solutions that solve real-world problems. Passionate about creating intuitive, impactful tools that make life easier for the people who use them. Whether working independently or as part of a team, I bring a strong focus on clean, efficient code and thoughtful design.</p>
+                    
+                <p>Most recently, I’ve been working in the fast-paced environment of a London-based ed-tech startup, where I’ve developed and maintained complex systems while collaborating closely with the team and end users to deliver impactful digital solutions that meet both business and user needs.</p>
+
+                <p>In addition to my professional role, I co-founded AcumoGlobal, a platform designed to help international students apply to UK universities and settle into life abroad. This venture has given me hands-on experience in the full lifecycle of a digital product, from idea and design to development and delivery - reinforcing my ability to align technical work with broader business goals.</p>
+
+                <p>Before transitioning into tech, I graduated from the Royal Birmingham Conservatoire as a classical pianist, where my background in music shaped my discipline, creativity, and attention to detail - qualities that now guide my approach to problem-solving and development. What started as a personal interest in coding quickly grew into a career that now gives me great satisfaction.</p>
+
+                <p>I’m excited to take the next step in my journey, contributing my skills and dedication to a team where I can help build innovative products that make a difference.</p>
             </div>
             </div>
         </div>

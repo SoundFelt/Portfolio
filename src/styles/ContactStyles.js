@@ -4,7 +4,7 @@ export const useStyles = createUseStyles({
     contactContainer: {
         backgroundColor: '#0D1431',
         height: '100%',
-        paddingBottom: '40px',
+        padding: '0 10px 40px'
     },
     title: {
         margin: '0',
@@ -60,6 +60,9 @@ export const useStyles = createUseStyles({
         },
         "@media (max-width: 800px)" : {
             width: '60%'
+        },
+        "@media (max-width: 500px)" : {
+            width: '80%'
         }
     },
     successMessage: {

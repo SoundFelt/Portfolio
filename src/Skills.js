@@ -14,7 +14,7 @@ function Skills() {
         <div id="Skills" className={classes.skillsContainer}>
             <div className={classes.skillsContent}>
                 <div className={classes.titleContainer}>
-                    <h1 className={classes.title}>Current Skills</h1>
+                    <h1 className={classes.title}>Skills</h1>
                 </div>
 
                 <div className={classes.logosContainer}>
@@ -32,7 +32,7 @@ function Skills() {
                     </div>
                     <div className={classes.React}>
                         <img alt="reactlogo" src={ReactLogo}></img>
-                        <p>React & React Native</p>
+                        <p>React & Native</p>
                     </div>
                     <div className={classes.TypeScript}>
                         <img alt="typesciptlogo" src={TypeScriptLogo}></img>
@@ -47,6 +47,9 @@ function Skills() {
                         <p>Node & Express</p>
                     </div> 
                 </div>
+                <div className={classes.skillsOther}>
+                    <span>As well as these core skills, I am also competent using other useful technologies including relational databases, testing libraries, styled components, Elysia & Bun.</span>
+                </div>
             </div>
             
             <div class="custom-shape-divider-bottom-1639670220">
@@ -54,7 +57,8 @@ function Skills() {
                     <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
                 </svg>
             </div>
-        </div> );
+        </div> 
+    );
 }
 
 export default Skills;

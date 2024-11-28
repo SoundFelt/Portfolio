@@ -21,25 +21,30 @@ export const useStyles = createUseStyles({
     aboutContent: {
         display: 'flex',
         width: '85%',
-        justifyContent: 'space-between',
+        justifyContent: 'center',
         margin: '50px auto',
-       
+        "@media (max-width: 600px)" : {
+            width: '95%'
+        }       
     },
     imageContainer: {
         position: 'relative',
         display: 'inline-block',
-        width: '35%',
+        width: '30%',
         height: '100%',
         zIndex: '10',
-        "@media (max-width: 700px)": {
-            width: '60%'
+        "@media (max-width: 964px)": {
+            width: '50%'
         },
-        
+        "@media (max-width: 600px)": {
+            width: '65%'
+        },
         '&:after': {
             content: '""',
             position: 'absolute',
             width: '95%',
-            height: '96%',
+            maxWidth: '600px',
+            height: '98%',
             border: '7px solid black',
             left: '-20px',
             top: '20px',
@@ -55,13 +60,17 @@ export const useStyles = createUseStyles({
         display: 'block',
         borderRadius: '10px',
         width: '100%',
+        maxWidth: '600px',
         zIndex:'10',
         boxShadow: '-10px 10px 20px grey'
     },
     
     textContainer: {
-        width: '56.2%',
-        
+        width: '50%',
+        marginLeft: '100px',
+        "@media (max-width: 964px)" : {
+            marginLeft: '0'
+        }
     },
     aboutText: {
         fontSize: '1.1rem',
@@ -69,7 +78,7 @@ export const useStyles = createUseStyles({
             textAlign: 'justify',
         },
         "@media (min-width: 1366px)" : {
-            fontSize: '1.3vw'
+            fontSize: '1.4rem'
         },
         "@media (max-width: 1365px)" : {
             fontSize: '1rem',
@@ -78,14 +87,14 @@ export const useStyles = createUseStyles({
             fontSize: '1.1rem'
           },
         "@media (max-width: 500px)": {
-            fontSize: "0.9rem"
+            fontSize: "1.3rem"
         }
     },
     firstPTag: {
         marginTop: '0',
     },
 
-    "@media (max-width: 800px)" : {
+    "@media (max-width: 964px)" : {
         aboutContent: {
             flexDirection: 'column',
             alignItems: 'center',
