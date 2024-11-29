@@ -85,7 +85,7 @@ function Projects() {
             <h1 className={classes.projectsTitle}>Project Highlights</h1>
         </div>
 
-        <Project textLeft title="AcumoGlobal" description={<div><p>A business I co-founded to modernise the application process for international students coming to study music in the UK.</p><p>The platform features a Vite/React front-end paired with a Bun and Elysia backend, chosen over the traditional Node/Express stack to improve server performance which was important given the need to host outside of mainland China.</p><p>To ensure accessibility within China I avoided using Google services and any banned social media integrations.</p></div>}
+        <Project textLeft title="AcumoGlobal" description={<div><p>A business I co-founded to modernise the application process for international students coming to study music in the UK.</p><p>The platform features a Vite/React front-end paired with a Bun and Elysia backend, chosen over the traditional Node/Express stack to improve server performance which was important given the need to host outside of mainland China.</p><p>It currently supports 5 languages with React i18n internationalization, and to ensure accessibility within China I avoided using Google services and any banned social media integrations.</p></div>}
         seeLive="https://www.acumoglobal.com"
         projectVideo={AcumoDemo} logo1={ReactLogoColor} logo2={ViteLogo} logo3={StyledComponentsLogo} logo4={ElysiaLogo} logo5={BunLogo} />
         <div style={{ backgroundColor: 'rgb(100, 100, 100)', height: '0.5px', width: '90%', margin: '75px auto' }}/>
