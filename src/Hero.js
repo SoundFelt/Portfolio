@@ -2,18 +2,33 @@ import {useStyles} from './styles/HeroStyles'
 import {Link} from 'react-scroll'
 import Background from './images/newbg.jpg';
 import './styles/starsAnimation.css'
+import { useEffect, useState } from 'react';
 
 function Hero() {
+  const classes = useStyles();
 
-  const classes = useStyles()
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return ( 
     <div id="Hero" className={classes.heroContainer}>
-    
-    <div class="stars-container">
-      <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-        </div>
+
+    { width > 800 && (
+      <div class="stars-container">
+        <div id="stars"></div>
+          <div id="stars2"></div>
+          <div id="stars3"></div>
+      </div>
+    )}
 
       <div className={classes.imageContainer}>
         <img src={Background} alt="heroBackground"></img>
